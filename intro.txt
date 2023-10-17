@@ -1,0 +1,3 @@
+Educational repo to learn a few searching and sorting algorithms (in java) 
+
+For addtional info : https://www.youtube.com/@MichaelSambol (Check out this youtube channel)
