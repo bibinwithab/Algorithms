@@ -3,13 +3,11 @@ body {
     background-color: #f4f4f4;
     padding: 20px;
 }
-
-.container {
-    display: flex;
-    align-items: flex-start;
+.container{
+	display:flex;
+	align-items:flex-start;
 }
-
-ol.list li {
+ol.list li  {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -24,9 +22,6 @@ h1 {
 ol.list {
     margin: 20px;
     padding-left: 20px;
-    max-width: 800px; /* Adjust the max-width to your preference */
-    margin-left: auto; /* Center the list within the container */
-    margin-right: auto;
 }
 
 ol.list li {
@@ -36,10 +31,6 @@ ol.list li {
 ol.list li a {
     color: #333;
     text-decoration: none;
-    padding: 10px 20px; /* Adjust the padding to make buttons wider */
-    display: inline-block; /* Allow padding to affect button width */
-    border: 1px solid #ccc; /* Add a border to the buttons */
-    border-radius: 5px; /* Add border-radius to match the list items */
 }
 
 ol.list li a:hover {
@@ -50,11 +41,9 @@ iframe#textFileFrame {
     width: 100%;
     height: 400px;
     border: none;
-    margin-left: 200px;
     margin-top: 20px;
     background-color: #f9f9f9;
 }
-
 footer {
     background-color: #ccc;
     padding: 10px;
@@ -66,7 +55,6 @@ footer {
     ol.list {
         margin: 10px;
         padding-left: 10px;
-        max-width: 100%; /* Adjust to full width on small screens */
     }
 
     iframe#textFileFrame {
